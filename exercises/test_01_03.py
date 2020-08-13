@@ -5,7 +5,7 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert "print(DATA[0])" in __solution__, "Are you printing the first record?"
-    assert some_var == len(DATA), "Are you getting the correct length?"
+    assert "pd.read_csv" in __solution__, "Are you using pandas to read in your data"
+    assert data.shape == len(DATA), "Are you getting the correct length?"
 
     __msg__.good("Well done!")

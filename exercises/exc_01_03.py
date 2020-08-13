@@ -1,11 +1,8 @@
-import json
+import pandas as pd 
 
-# This code will run relative to the root of the repo, so we can load files
-with open("exercises/bookquotes.json") as f:
-    DATA = json.loads(f.read())
+# This code will run relative to the root of the repo, so we can load files from the root or a url 
 
-# Print the first record in the DATA
-print(___[____])
+data = pd.___('https://raw.githubusercontent.com/plotly/datasets/master/beers.csv')
 
-# Assign the length of DATA to some_var
-some_var = ___
+# display the first 5 rows 
+data.___()

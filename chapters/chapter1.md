@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 1: Getting started'
+title: 'Chapter 1: Making an Interactive Online Course'
 description:
   'This chapter will teach you about many cool things and introduce you to the
   most important concepts of the course.'
@@ -9,7 +9,7 @@ type: chapter
 id: 1
 ---
 
-<exercise id="1" title="Introduction" type="slides">
+<exercise id="1" title="Intro" type="slides">
 
 <slides source="chapter1_01_introduction">
 </slides>
@@ -18,22 +18,22 @@ id: 1
 
 <exercise id="2" title="Getting Started">
 
-Let's ask some questions about the slides. Whats the correct answer?
+Who is the develloper of this framework?
 
 <choice>
-<opt text="Answer one">
+<opt text="Iris Montague">
 
 This is not the correct answer.
 
 </opt>
 
-<opt text="Answer two" correct="true">
+<opt text="Eugene Monterasi" >
 
 Good job!
 
 </opt>
 
-<opt text="Answer three">
+<opt text="Ines Montani " correct="true">
 
 This is not correct either.
 
